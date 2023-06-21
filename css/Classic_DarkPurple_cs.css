@@ -1,0 +1,560 @@
+/* CS1 Background and text colours
+-------------------------------------------------------------*/
+
+/* CS1.0 */
+html {
+  background-color: rgb(239, 228, 240);
+  }
+
+#pun {
+  background: rgb(255, 255, 255);
+  -webkit-box-shadow: rgba(0,0,0,0.2) 0px 0px 6px;
+  -moz-box-shadow: rgba(0,0,0,0.2) 0px 0px 6px;
+  -khtml-box-shadow: rgba(0,0,0,0.2) 0px 0px 6px;
+  box-shadow: rgba(0,0,0,0.2) 0px 0px 6px;
+  }
+
+/* CS1.1 */
+.punbb .section .container, .punbb .modmenu .container,
+.punbb .post-body, .punbb .post-links, .punbb td.tc2, .punbb td.tc3,
+.punbb .formal fieldset .post-box, #viewprofile li strong, #viewprofile li div, #setmods dd,
+.punbb .info-box, .punbb #pun-main .info-box .legend {
+  background: rgb(252, 250, 252);
+  color: #333;
+  }
+
+.punbb .section .container {
+  border-radius: 3px;
+  }
+
+#pun-status .container, #pun-crumbs2 .container, .punbb .post h3, .punbb .post h3 span {
+  border-radius: 3px 3px 0 0 !important;
+  }
+
+#pun-crumbs1 .container, #pun-about .container, .punbb .post > .container {
+  border-radius: 0 0 3px 3px !important;
+  }
+
+/* CS1.2 */
+.punbb .main .container, .punbb .post .container, .punbb .post h3, .punbb-admin #pun-admain .adcontainer {
+  background: rgb(252, 250, 252);
+  border: 1px solid rgb(231, 201, 235);
+  color: #333;
+  border-radius: 3px;
+  }
+
+/* CS1.3 */
+#pun-stats h2, .punbb .main h1, .punbb .main h2, #pun-debug h2, .punbb-admin #pun-admain h2 {
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(88, 25, 92);
+  padding: 8px 10px;
+  margin: 3px auto 0;
+  border: 1px solid rgb(71, 19, 74);
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.1)), color-stop(100%,rgba(255,255,255,0)));
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,.1) 0%,rgba(255,255,255,0) 100%);
+  background-image: -o-linear-gradient(top, rgba(255,255,255,.1) 0%,rgba(255,255,255,0) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255,255,255,.1) 0%,rgba(255,255,255,0) 100%);
+  background-image: linear-gradient(to bottom, rgba(255,255,255,.1) 0%,rgba(255,255,255,0) 100%);
+  -webkit-box-shadow: inset rgba(255,255,255,0.2) 0px 1px 0px;
+  -moz-box-shadow: inset rgba(255,255,255,0.2) 0px 1px 0px;
+  -khtml-box-shadow: inset rgba(255,255,255,0.2) 0px 1px 0px;
+  box-shadow: inset rgba(255,255,255,0.2) 0px 1px 0px;
+  text-shadow: rgba(0,0,0,0.9) 0px 1px 1px;
+  padding: 8px;
+  margin: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  min-height: 6px;
+  }
+
+/* CS1.4 */
+#pun-title, #pun-title .container {
+  background-color: rgb(78, 11, 82);
+  color: #fff;
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 70%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.2)), color-stop(70%,rgba(0,0,0,0)));
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 70%);
+  background-image: -o-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 70%);
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 70%);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 70%);
+  border: none 0 transparent !important;
+  }
+
+/* CS1.5 */
+.punbb legend span, #viewprofile h2 span, #profilenav h2 span, 
+.punbb-admin #pun-admain legend span {
+  background-color: #FAFBFC;
+  color: rgb(95, 32, 103);
+  text-shadow: none;
+  }
+
+/* CS1.6 */
+#viewprofile li, #setmods dl {
+  background-color: rgb(231, 201, 235);
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.2) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.45)), color-stop(100%,rgba(255,255,255,0.2)));
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.2) 100%);
+  background-image: -o-linear-gradient(top, rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.2) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.2) 100%);
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.2) 100%);
+  color: #333;
+  }
+
+.punbb:not(#pun-index):not(#pun-viewforum) th {
+  background-color: rgb(231, 201, 235);
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.2) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.45)), color-stop(100%,rgba(255,255,255,0.2)));
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.2) 100%);
+  background-image: -o-linear-gradient(top, rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.2) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.2) 100%);
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.2) 100%);
+  border-bottom: 1px solid rgb(231, 201, 235) !important;
+  color: #333;
+  }
+
+.punbb .post h3 span {
+  background-color: transparent;
+  color: #333
+  }
+
+/* CS1.7 */
+.punbb .quote-box, .punbb .code-box {
+  border: 1px solid rgb(231, 201, 235);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: rgba(0,0,0,0.04) 0px 1px 6px;
+  -moz-box-shadow: rgba(0,0,0,0.04) 0px 1px 6px;
+  -khtml-box-shadow: rgba(0,0,0,0.04) 0px 1px 6px;
+  box-shadow: rgba(0,0,0,0.04) 0px 1px 6px;
+  color: #333;
+  }
+
+.punbb .quote-box cite, .punbb .code-box .legend, .punbb .spoiler-box > div {
+  padding: .7em 1em;
+  font-size: 11px;
+  font-weight: 400;
+  color: rgb(163, 105, 161);
+  background: rgba(231, 201, 235, 0.78);
+  border-bottom: 1px solid rgb(235, 201, 234);
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.2) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.45)), color-stop(100%,rgba(255,255,255,0.2)));
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.2) 100%);
+  background-image: -o-linear-gradient(top, rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.2) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.2) 100%);
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.2) 100%);
+  border-radius: 4px 4px 0 0;
+  }
+
+.punbb .post-content .blockcode, .punbb .post-content blockquote {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  }
+
+/* CS1.8 */
+#pun-navlinks {
+  height: 40px;
+  background: rgba(0,0,0,0.4);
+  -webkit-box-shadow: inset rgba(0,0,0,0.6) 0px 1px 5px, rgba(255,255,255,0.08) 0px -1px 0px, rgba(0,0,0,0.3) 0px 1px 4px;
+  -moz-box-shadow: inset rgba(0,0,0,0.6) 0px 1px 5px, rgba(255,255,255,0.08) 0px -1px 0px, rgba(0,0,0,0.3) 0px 1px 4px;
+  -khtml-box-shadow: inset rgba(0,0,0,0.6) 0px 1px 5px, rgba(255,255,255,0.08) 0px -1px 0px, rgba(0,0,0,0.3) 0px 1px 4px;
+  box-shadow: inset rgba(0,0,0,0.6) 0px 1px 5px, rgba(255,255,255,0.08) 0px -1px 0px, rgba(0,0,0,0.3) 0px 1px 4px;
+  }
+
+#pun-navlinks .container {
+  background-color: transparent;
+  color: #fff;
+  }
+
+/* CS1.9 */
+#pun-ulinks .container {
+  background: rgb(241, 232, 245) repeat-x 0 0;
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,0)));
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%);
+  background-image: -o-linear-gradient(top, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%);
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%);
+  background-position: 0 0;
+  border-bottom: 1px solid rgb(231, 201, 235);
+  border-radius: 0;
+  margin: 0;
+  border-style: none none solid none;
+  margin: 0 -10px;
+  }
+
+/* CS1.10 */
+.offline li.pa-online strong {
+  font-weight: normal
+  }
+
+/* CS2 Border colours
+-------------------------------------------------------------*/
+
+/* CS2.1 */
+.punbb .container, .punbb .post-body, .post h3, #pun-title {
+  border-color: rgb(231, 201, 235);
+  }
+
+/* CS2.2 */
+.punbb .section, .punbb .forum, .punbb .formal, .punbb .modmenu, .punbb .info,
+.punbb .category, .punbb .post {
+  border-color: #f5f5f5
+  }
+
+/* CS2.3 */
+#pun-stats h2, .punbb .main h1, .punbb .main h2, #pun-debug h2, .punbb-admin #pun-admain h2 {
+  border-color: rgb(66, 19, 74);
+  }
+
+/* CS2.4 */
+.punbb td, .punbb fieldset, #viewprofile ul, #profilenav ul, .punbb .post .post-body,
+.punbb .post h3 span, .post-links ul, .post-links, .usertable table {
+  border-color: rgb(231, 201, 235);
+  }
+
+/* CS2.5 */
+.punbb th {
+  border-color: #dedfdf
+  }
+
+/* CS2.6 */
+.punbb .quote-box, .punbb .code-box {
+  border-color: rgb(231, 201, 235);
+  }
+
+#pun-ulinks li, #pun-announcement h2 span, li#onlinelist, #pun-help .formal .info-box h3.legend span {
+  border-color: rgb(231, 201, 235);
+  }
+
+#pun-ulinks li a, #pun-announcement h2, li#onlinelist div, #pun-help .formal .info-box h3.legend {
+  border-color: #fff
+  }
+
+.punbb .divider {
+  border-color: rgb(231, 201, 235) transparent transparent transparent;
+  }
+
+.punbb .formal fieldset .post-box, .punbb .info-box {
+  border: 1px solid #dedfdf
+  }
+
+li.pa-online {
+  border-left-color: #005EAB;
+  }
+
+#f-subforums {
+  border-bottom: solid 1px rgb(231, 201, 235) !important;
+  }
+
+
+/* CS3 Links
+-------------------------------------------------------------*/
+
+/* CS3.1 */
+.punbb a, .punbb a:link, .punbb a:visited,
+.punbb-admin #pun-admain a, .punbb-admin #pun-admain a:link, .punbb-admin #punbb-admain a:visited {
+  color: rgb(92, 32, 103);
+  }
+
+.punbb li.isactive a, .punbb li.isactive a:link, .punbb li.isactive a:visited {
+  color: #333
+  }
+
+/* CS3.2 */
+.punbb a:hover, .punbb a:focus, .punbb a:active,  .punbb-admin #pun-admain .nodefault,
+.punbb-admin #punbb-admain a:hover, .punbb-admin #punbb-admain a:focus, .punbb-admin #punbb-admain a:active {
+  color: rgb(92, 32, 103);
+  text-decoration: underline;
+  }
+
+/* CS3.3 */
+#pun-navlinks a {
+  color: #fff;
+  text-decoration: none
+  }
+
+#pun-ulinks li a {
+  color: rgb(79, 25, 92);
+  line-height: 30px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  font-weight: 700;
+  }
+
+/* CS3.4 */
+#pun-navlinks li a:hover {
+  background: rgba(255,255,255,0.06);
+  color: #fff;
+  text-shadow: rgba(255,255,255,0.7) 0px 0px 5px;
+  }
+
+#pun-navlinks .isactive a {
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  text-shadow: rgba(255,255,255,0.7) 0px 0px 5px;
+  -webkit-box-shadow: inset rgba(0,0,0,0.6) 0px 1px 4px;
+  -moz-box-shadow: inset rgba(0,0,0,0.6) 0px 1px 4px;
+  -khtml-box-shadow: inset rgba(0,0,0,0.6) 0px 1px 4px;
+  box-shadow: inset rgba(0,0,0,0.6) 0px 1px 4px;
+  position: relative;
+  }
+
+#pun-ulinks li a:hover, #pun-ulinks li a:focus {
+  color: rgb(88, 25, 92);
+  background: rgba(136, 35, 148, 0.08);
+  -webkit-box-shadow: inset rgba(0,0,0,0.1) 0px 1px 3px, #fff 0px 1px 0px;
+  -moz-box-shadow: inset rgba(0,0,0,0.1) 0px 1px 3px, #fff 0px 1px 0px;
+  -khtml-box-shadow: inset rgba(0,0,0,0.1) 0px 1px 3px, #fff 0px 1px 0px;
+  box-shadow: inset rgba(0,0,0,0.1) 0px 1px 3px, #fff 0px 1px 0px;
+  }
+
+#pun-pagelinks a:active, #pun-pagelinks a:focus {
+  background-color: #333;
+  color: #fff;
+  }
+
+
+/* CS4 Post status icons
+ -------------------------------------------------------------*/
+
+/* CS4.1 */
+.punbb tr div.icon {
+  background: transparent url(../images/icon.png) no-repeat 0 0;
+  }
+
+.punbb tr.inew div.icon {
+  background: transparent url(../images/icon.png) no-repeat -36px 0;
+  }
+
+.punbb tr.iredirect div.icon {
+  background: transparent url(../images/icon.png) no-repeat -72px 0;
+  }
+
+.punbb tr.inew.iclosed div.icon {
+  background: transparent url(../images/icon.png) no-repeat -213px 0;
+  }
+
+.punbb tr.iclosed:not(.inew) div.icon {
+  background: transparent url(../images/icon.png) no-repeat -177px 0;
+  }
+
+.punbb tr.inew.isticky div.icon,
+.punbb tr.inewisticky  div.icon,
+.punbb tr.iclosed.inewisticky div.icon {
+  background: transparent url(../images/icon.png) no-repeat -141px 0;
+  }
+
+.punbb tr.isticky:not(.inew) div.icon {
+  background: transparent url(../images/icon.png) no-repeat -106px 0;
+  }
+
+/* CS4.2 */
+.punbb .closedatafield {
+  display: inline-block;
+  width: 0;
+  padding-right: 11px;
+  font-size: 0;
+  color: transparent;
+  }
+
+.punbb .closedatafield:before {
+  content: url(../images/closed.png);
+  margin-right: 5px;
+  }
+
+/* CS4.3 */
+.punbb .stickytext:before {
+  content: url(../images/sticky.png);
+  margin-right: 5px;
+  }
+
+
+/* CS5 Additional styles
+-------------------------------------------------------------*/
+
+/* CS5.1 */
+#pun-main div.catleft, #pun-main div.catright {
+  display: none
+  }
+
+/* CS5.2 */
+.category td.tc2:before,
+#f-subforums td.tc2:before {
+  content: "Topics: " !important;
+  color: rgb(150,150,150);
+  float: left;
+  }
+
+.ru .category td.tc2:before,
+.ru #f-subforums td.tc2:before {
+  content: "Тем: " !important;
+  }
+.es .category td.tc2:before,
+.es #f-subforums td.tc2:before {
+  content: "Temas: " !important;
+  }
+
+.category td.tc3:before,
+#f-subforums td.tc3:before {
+  content: "Posts: " !important;
+  color: rgb(150,150,150);
+  float: left;
+  }
+
+.ru .category td.tc3:before,
+.ru #f-subforums td.tc3:before {
+  content: "Сообщений: " !important;
+  }
+.es .category td.tc3:before,
+.es #f-subforums td.tc3:before {
+  content: "Mensajes: " !important;
+  }
+
+#pun-viewforum .forum td.tc2:before {
+  display: block;
+  content: "Replies: ";
+  color: rgb(150,150,150);
+  float: left;
+  }
+
+.ru #pun-viewforum .forum td.tc2:before {
+  content: "Ответов: " !important;
+  }
+.es #pun-viewforum .forum td.tc2:before {
+  content: "Respuestas: " !important;
+  }
+
+#pun-viewforum .forum td.tc3:before {
+  display: block;
+  content: "Views: ";
+  color: rgb(150,150,150);
+  float: left;
+  }
+
+.ru #pun-viewforum .forum td.tc3:before {
+  content: "Просмотров: " !important;
+  }
+.es #pun-viewforum .forum td.tc3:before {
+  content: "Vistas: " !important;
+  }
+
+#pun tr.iredirect .tc2:before,
+#pun tr.iredirect .tc3:before {
+  content: none !important
+  }
+
+/* CS5.3 */
+.tipsy-inner, .tipsy-arrow {
+  font-family: Tahoma;
+  font-size: 11px;
+  opacity: 0.8 !important;
+  }
+
+/* CS5.4 */
+#BookmCntToggle {
+  background: url(../images/bookmark.png) center center no-repeat !important;
+  width: 26px !important;
+  height: 26px !important;
+  opacity: 1 !important;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 0 6px rgba(0,0,0,.2);
+  border-radius: 2px;
+  }
+
+#BookmCntToggle:hover {
+  opacity: .78!important;
+  }
+
+#MyBookmarks h2, #MyBookmarks h1, .editBookmark h1 {
+  margin-bottom: 0 !important;
+  }
+
+/* CS5.5 */
+#navpm .num_msg {
+  margin-left: -26px !important;
+  margin-top: -4px !important;
+  }
+
+/* CS5.6 */
+form .button, input[type="submit"] {
+  font-style: normal;
+  font-size: 12px;
+  color: rgb(94, 54, 99);
+  background: rgb(244, 232, 245);
+  padding: 0px 10px;
+  border: 1px solid rgb(231, 201, 235);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  -webkit-box-shadow: rgba(0,0,0,0.05) 0px 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.05) 0px 1px 3px;
+  -khtml-box-shadow: rgba(0,0,0,0.05) 0px 1px 3px;
+  box-shadow: rgba(0,0,0,0.05) 0px 1px 3px;
+  text-shadow: 0 0 0 transparent, 0px 1px 0px #fff;
+  outline: none;
+  line-height: 22px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.7)), color-stop(100%,rgba(255,255,255,0)));
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0) 100%);
+  background-image: -o-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0) 100%);
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0) 100%);
+  height: 26px;
+  }
+
+form .button:hover, form .button:focus, form .button:active,
+input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+  text-decoration: none;
+  -webkit-box-shadow: inset rgba(255,255,255,0.2) 0px 100px 0px, rgba(0,0,0,0.05) 0px 1px 3px;
+  -moz-box-shadow: inset rgba(255,255,255,0.2) 0px 100px 0px, rgba(0,0,0,0.05) 0px 1px 3px;
+  -khtml-box-shadow: inset rgba(255,255,255,0.2) 0px 100px 0px, rgba(0,0,0,0.05) 0px 1px 3px;
+  box-shadow: inset rgba(255,255,255,0.2) 0px 100px 0px, rgba(0,0,0,0.05) 0px 1px 3px;
+  }
+
+form .button:disabled, input[type="submit"]:disabled {
+  opacity: .6;
+  cursor: default;
+  box-shadow: none;
+  }
+
+/* CS5.7 */
+#profilenav li a:hover {
+  color: rgb(82, 25, 92);
+  background: rgba(136, 35, 148, 0.08);
+  -webkit-box-shadow: inset rgba(0,0,0,0.1) 0px 1px 3px, #fff 0px 1px 0px;
+  -moz-box-shadow: inset rgba(0,0,0,0.1) 0px 1px 3px, #fff 0px 1px 0px;
+  -khtml-box-shadow: inset rgba(0,0,0,0.1) 0px 1px 3px, #fff 0px 1px 0px;
+  box-shadow: inset rgba(0,0,0,0.1) 0px 1px 3px, #fff 0px 1px 0px;
+  text-decoration: none !important;
+  }
+
+#profilenav li.isactive a {
+  background: rgba(157, 162, 167, 0.12);
+  -webkit-box-shadow: inset rgba(0,0,0,0.1) 0px 1px 3px, #fff 0px 1px 0px;
+  -moz-box-shadow: inset rgba(0,0,0,0.1) 0px 1px 3px, #fff 0px 1px 0px;
+  -khtml-box-shadow: inset rgba(0,0,0,0.1) 0px 1px 3px, #fff 0px 1px 0px;
+  box-shadow: inset rgba(0,0,0,0.1) 0px 1px 3px, #fff 0px 1px 0px;
+  text-decoration: none !important;
+  }
